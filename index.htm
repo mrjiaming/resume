@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Android开发简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >MrWu</h1>
+                <h4 id="persona-tag" >Android</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">巫辅钦</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">五邑大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2017</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">1881XXXX2492</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">shenghanming@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">http://onedian.club/</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">https://github.com/AndroidPreView</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Android</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Linux</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">Android</label><span class="label-value">Java</span></li>
+                    </li>
+                
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>五邑大学 - 网络工程专业（本科）2013-2017</h3>
+                        <p>
+                            
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>珠海追梦科技有限公司－实习生（实习）</h3>
+                        <p>2016年07月04日-2016年10月20日 <br>
+这两个应用需要在读书郎平板中使用 <br>
+项目职责： 系统加速开发及维护<br>
+项目简述：<br>
+ 1、扫描应用垃圾并清理  2、清理内存 主要使用了AsyncTask异步加载，通过service开启服务，扫描应用数据，内存进程。解决了AsyncTask异步加载过程中不能立即运行的问题，自定义View，以及Fragment重叠问题等问题。
+
+                        </p>
+                    </li>
+                    <li>
+                        <h3>珠海格力有限公司</h3>
+                        <p>
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>高校Plus</h3>
+                        <p>
+                            android开发   2015.11-2016.01  <br>
+● “高校Plus”App是一款集在校大学生义工志愿者服务与管理、兼职活动查看与报名、校园各类生活助手等功能于一体，为在校大学生提供便捷生活而存在的服务性平台。<br>
+ ● 整个项目的构思，兼职、义工模块、界面设计以及性能优化 <br>，使用async-http实现与server端数据交互，利用gson解析Json数据到JavaBean等。<br>
+解决问题：安装包压缩、以及布局优化
+
+                            <br/>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>商城开发</h3>
+                        <p>
+                            项目职责： 商城开发及维护
+项目描述：提供应用下载、卸载。<br>
+项目职责：<br>
+1、  平板商城模块的开发以及维护  主要使用了OKHttp+Retrofit+RxJava框架开发，项目中使用到了多个自定义view，比如自定义ViewPagerIndicator等，以及多线程下载，断点下载，性能优化，内存泄漏,改良UI和交互，以及通过自己实现的一个多线程下载库
+
+                        </p>
+                    </li>
+    
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title"></span></h2>
+                <hr>
+                <ul class="experience-list">
+                               
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                    ● 在 Android 基础方面，我涉猎广泛，看过大量 Android <br>教程、慕课，和许多进阶书籍。在这些基础之上，我又学会了在GitHub上参与 / 阅读开源项目，在Stack Overflow上搜寻答案、回答问题，在 Android 官方文档上学习全面加深知识，养成通过 Google 搜索自主解决各种问题的习惯，能够坚持写技术博客。
+●良好的代码风格以及编程习惯。<br>
+● 熟悉的编程语言：Java <br>
+● 熟悉面向对象，在意建模、封装、继承，和接口设计，了解常用设计模式，了解 MVP. <br>
+● 熟悉常用的第三方开源组件。 <br>
+● 较熟悉Http协议<br>
+● 熟练linux<br>
+● 比较熟练使用 RxJava，Retrofit，OkHttp，Glide，Universal-Image-loader等。 <br>
+● 做过自定义 View，熟悉自定义 View 及其相关的一些动画，事件、手势分发。 <br>
+● 能够做出很多悦目的动画效果。 <br>
+● 熟练使用 Android Studio/ Git／ <br>
+● 懂得将代码发布到 Maven Central. 
+
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
